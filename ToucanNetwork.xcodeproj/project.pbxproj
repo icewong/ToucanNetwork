@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EA80432154E3880036B17A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA80422154E3880036B17A /* AppDelegate.swift */; };
+		25EA80452154E3880036B17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA80442154E3880036B17A /* ViewController.swift */; };
+		25EA80482154E3880036B17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA80462154E3880036B17A /* Main.storyboard */; };
+		25EA804B2154E3880036B17A /* ToucanNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25EA80492154E3880036B17A /* ToucanNetwork.xcdatamodeld */; };
+		25EA804D2154E3890036B17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EA804C2154E3890036B17A /* Assets.xcassets */; };
+		25EA80502154E3890036B17A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA804E2154E3890036B17A /* LaunchScreen.storyboard */; };
+		25EA805B2154E3890036B17A /* ToucanNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA805A2154E3890036B17A /* ToucanNetworkTests.swift */; };
+		25EA80662154E3890036B17A /* ToucanNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA80652154E3890036B17A /* ToucanNetworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25EA80572154E3890036B17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25EA80372154E3880036B17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EA803E2154E3880036B17A;
+			remoteInfo = ToucanNetwork;
+		};
+		25EA80622154E3890036B17A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25EA80372154E3880036B17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EA803E2154E3880036B17A;
+			remoteInfo = ToucanNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25EA803F2154E3880036B17A /* ToucanNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToucanNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA80422154E3880036B17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25EA80442154E3880036B17A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25EA80472154E3880036B17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25EA804A2154E3880036B17A /* ToucanNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToucanNetwork.xcdatamodel; sourceTree = "<group>"; };
+		25EA804C2154E3890036B17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25EA804F2154E3890036B17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25EA80512154E3890036B17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EA80562154E3890036B17A /* ToucanNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToucanNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA805A2154E3890036B17A /* ToucanNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToucanNetworkTests.swift; sourceTree = "<group>"; };
+		25EA805C2154E3890036B17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EA80612154E3890036B17A /* ToucanNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToucanNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA80652154E3890036B17A /* ToucanNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToucanNetworkUITests.swift; sourceTree = "<group>"; };
+		25EA80672154E3890036B17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EA803C2154E3880036B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA80532154E3890036B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA805E2154E3890036B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EA80362154E3880036B17A = {
+			isa = PBXGroup;
+			children = (
+				25EA80412154E3880036B17A /* ToucanNetwork */,
+				25EA80592154E3890036B17A /* ToucanNetworkTests */,
+				25EA80642154E3890036B17A /* ToucanNetworkUITests */,
+				25EA80402154E3880036B17A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EA80402154E3880036B17A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EA803F2154E3880036B17A /* ToucanNetwork.app */,
+				25EA80562154E3890036B17A /* ToucanNetworkTests.xctest */,
+				25EA80612154E3890036B17A /* ToucanNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EA80412154E3880036B17A /* ToucanNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				25EA80422154E3880036B17A /* AppDelegate.swift */,
+				25EA80442154E3880036B17A /* ViewController.swift */,
+				25EA80462154E3880036B17A /* Main.storyboard */,
+				25EA804C2154E3890036B17A /* Assets.xcassets */,
+				25EA804E2154E3890036B17A /* LaunchScreen.storyboard */,
+				25EA80512154E3890036B17A /* Info.plist */,
+				25EA80492154E3880036B17A /* ToucanNetwork.xcdatamodeld */,
+			);
+			path = ToucanNetwork;
+			sourceTree = "<group>";
+		};
+		25EA80592154E3890036B17A /* ToucanNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				25EA805A2154E3890036B17A /* ToucanNetworkTests.swift */,
+				25EA805C2154E3890036B17A /* Info.plist */,
+			);
+			path = ToucanNetworkTests;
+			sourceTree = "<group>";
+		};
+		25EA80642154E3890036B17A /* ToucanNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25EA80652154E3890036B17A /* ToucanNetworkUITests.swift */,
+				25EA80672154E3890036B17A /* Info.plist */,
+			);
+			path = ToucanNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EA803E2154E3880036B17A /* ToucanNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA806A2154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetwork" */;
+			buildPhases = (
+				25EA803B2154E3880036B17A /* Sources */,
+				25EA803C2154E3880036B17A /* Frameworks */,
+				25EA803D2154E3880036B17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToucanNetwork;
+			productName = ToucanNetwork;
+			productReference = 25EA803F2154E3880036B17A /* ToucanNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25EA80552154E3890036B17A /* ToucanNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA806D2154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetworkTests" */;
+			buildPhases = (
+				25EA80522154E3890036B17A /* Sources */,
+				25EA80532154E3890036B17A /* Frameworks */,
+				25EA80542154E3890036B17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EA80582154E3890036B17A /* PBXTargetDependency */,
+			);
+			name = ToucanNetworkTests;
+			productName = ToucanNetworkTests;
+			productReference = 25EA80562154E3890036B17A /* ToucanNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25EA80602154E3890036B17A /* ToucanNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA80702154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetworkUITests" */;
+			buildPhases = (
+				25EA805D2154E3890036B17A /* Sources */,
+				25EA805E2154E3890036B17A /* Frameworks */,
+				25EA805F2154E3890036B17A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EA80632154E3890036B17A /* PBXTargetDependency */,
+			);
+			name = ToucanNetworkUITests;
+			productName = ToucanNetworkUITests;
+			productReference = 25EA80612154E3890036B17A /* ToucanNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EA80372154E3880036B17A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "bing wang";
+				TargetAttributes = {
+					25EA803E2154E3880036B17A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					25EA80552154E3890036B17A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 25EA803E2154E3880036B17A;
+					};
+					25EA80602154E3890036B17A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 25EA803E2154E3880036B17A;
+					};
+				};
+			};
+			buildConfigurationList = 25EA803A2154E3880036B17A /* Build configuration list for PBXProject "ToucanNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EA80362154E3880036B17A;
+			productRefGroup = 25EA80402154E3880036B17A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EA803E2154E3880036B17A /* ToucanNetwork */,
+				25EA80552154E3890036B17A /* ToucanNetworkTests */,
+				25EA80602154E3890036B17A /* ToucanNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EA803D2154E3880036B17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA80502154E3890036B17A /* LaunchScreen.storyboard in Resources */,
+				25EA804D2154E3890036B17A /* Assets.xcassets in Resources */,
+				25EA80482154E3880036B17A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA80542154E3890036B17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA805F2154E3890036B17A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EA803B2154E3880036B17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA804B2154E3880036B17A /* ToucanNetwork.xcdatamodeld in Sources */,
+				25EA80452154E3880036B17A /* ViewController.swift in Sources */,
+				25EA80432154E3880036B17A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA80522154E3890036B17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA805B2154E3890036B17A /* ToucanNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA805D2154E3890036B17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA80662154E3890036B17A /* ToucanNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25EA80582154E3890036B17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25EA803E2154E3880036B17A /* ToucanNetwork */;
+			targetProxy = 25EA80572154E3890036B17A /* PBXContainerItemProxy */;
+		};
+		25EA80632154E3890036B17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25EA803E2154E3880036B17A /* ToucanNetwork */;
+			targetProxy = 25EA80622154E3890036B17A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25EA80462154E3880036B17A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EA80472154E3880036B17A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25EA804E2154E3890036B17A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EA804F2154E3890036B17A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EA80682154E3890036B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25EA80692154E3890036B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EA806B2154E3890036B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25EA806C2154E3890036B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25EA806E2154E3890036B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToucanNetwork.app/ToucanNetwork";
+			};
+			name = Debug;
+		};
+		25EA806F2154E3890036B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToucanNetwork.app/ToucanNetwork";
+			};
+			name = Release;
+		};
+		25EA80712154E3890036B17A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToucanNetwork;
+			};
+			name = Debug;
+		};
+		25EA80722154E3890036B17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToucanNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangbing.com.ToucanNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToucanNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EA803A2154E3880036B17A /* Build configuration list for PBXProject "ToucanNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA80682154E3890036B17A /* Debug */,
+				25EA80692154E3890036B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA806A2154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA806B2154E3890036B17A /* Debug */,
+				25EA806C2154E3890036B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA806D2154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA806E2154E3890036B17A /* Debug */,
+				25EA806F2154E3890036B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA80702154E3890036B17A /* Build configuration list for PBXNativeTarget "ToucanNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA80712154E3890036B17A /* Debug */,
+				25EA80722154E3890036B17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25EA80492154E3880036B17A /* ToucanNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25EA804A2154E3880036B17A /* ToucanNetwork.xcdatamodel */,
+			);
+			currentVersion = 25EA804A2154E3880036B17A /* ToucanNetwork.xcdatamodel */;
+			path = ToucanNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25EA80372154E3880036B17A /* Project object */;
+}
