@@ -1,0 +1,24 @@
+PODS:
+  - CryptoSwift (0.12.0)
+  - ISO8601 (0.6.0)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - ISO8601
+  - XMLDictionary
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CryptoSwift
+    - ISO8601
+    - XMLDictionary
+
+SPEC CHECKSUMS:
+  CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 0385e53b49c145dc9c173c4652d917bd5460b239
+
+COCOAPODS: 1.5.3
